@@ -1,24 +1,30 @@
+.app {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
 
-  
-  .app{
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    background: #e8eaf1;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  textarea{
-    background: #eff1f5;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 20px;
-  }
-  
-  .preview{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.textarea {
+  width: 50%;
+  height: 90vh;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  resize: none;
+}
+
+.preview {
+  width: 50%;
+  height: 90vh;
+  padding: 10px;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+}
